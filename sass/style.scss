@@ -1,0 +1,68 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgb(85, 172, 238);
+}
+
+main{
+	width: 1000px;
+	margin: 0 auto;
+	header{
+		h1{
+			font-size: 3em;
+			color: white;
+			text-align: center;
+			font-weight: normal;
+			padding-top: 50px;
+		}
+	}
+	.box{
+		h2, h3{
+			margin: 25px 0;
+			text-align: center;
+		}
+	}
+	.social-box{
+		button{
+			display: block;
+			margin: 0 auto;
+			margin-top: 50px;
+			width: 50%;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 1.5em;
+			background-color: transparent;
+			color: white;
+			border: 1px solid white;
+			padding: 10px 0;
+			transition: 0.5s;
+			&:hover{
+				background-color: rgb(85, 165, 238);
+				cursor: pointer;
+			}
+		}
+		a{
+			display: block;
+			width: 50%;
+			margin: 0 auto;
+			text-align: center;
+			margin-top: 50px;
+			padding: 10px 0;
+			border: 1px solid white;
+			text-decoration: none;
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 1.5em;
+			transition: 0.5s;
+			span{
+				position: relative;
+				bottom: 1px;
+			}
+			&:hover{
+				background-color: rgb(85, 165, 238);
+				cursor: pointer;
+			}
+		}
+	}
+}
+
